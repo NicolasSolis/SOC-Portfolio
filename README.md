@@ -24,7 +24,7 @@ Este espacio recopila investigaciones prácticas, análisis dinámicos y estáti
 ### 1. Análisis Dinámico y CTI: Infostealer LummaC2 (MaaS)
 * **Categoría:** Análisis de Malware / Threat Intelligence / Detección de Endpoint
 * **Tecnologías:** ANY.RUN, VirusTotal, Suricata IDS, YARA, MITRE ATT&CK
-* **Directorio:** [`SOC-Portfolio/2026-lumma_c2`](./SOC-Portfolio/2026-lumma_c2/)
+* **Directorio:** [`SOC-Portfolio/2026-lumma_c2`](2026-lumma_c2/lumma-c2.md)
 * **Descripción:** 
   * Detonación interactiva y examen forense de una muestra real de LummaC2 empaquetada en Go (`setup.exe`).
   * Identificación de técnicas avanzadas de evasión: llamadas a WMI (`T1047`), chequeos anti-sandbox (`T1497`) y *process masquerading* sobre subprocesos del navegador legítimo `chrome.exe` (`T1071`).
